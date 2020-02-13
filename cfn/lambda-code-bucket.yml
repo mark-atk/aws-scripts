@@ -1,0 +1,6 @@
+Resources:
+  LambdaCodeBucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: lambda-code-bucket
